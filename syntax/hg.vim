@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	hg (Mercurial) commit file
 " Maintainer:	Ken Takata <kentkt at csc dot jp>
-" Last Change:	2012 Jul 18
+" Last Change:	2012 Jul 21
 " Filenames:	hg-editor-*.txt
 " License:	VIM License
 " URL:		https://github.com/k-takata/hg-vim
@@ -10,7 +10,7 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn match hgComment "^HG: .*$"
+syn match hgComment "^HG:.*$"
 syn match hgUser    "^HG: user: \zs.*$"   contained containedin=hgComment
 syn match hgBranch  "^HG: branch \zs.*$"  contained containedin=hgComment
 syn match hgAdded   "^HG: \zsadded .*$"   contained containedin=hgComment
