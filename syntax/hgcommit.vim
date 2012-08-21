@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	hg (Mercurial) commit file
 " Maintainer:	Ken Takata <kentkt at csc dot jp>
-" Last Change:	2012 Aug 2
+" Last Change:	2012 Aug 21
 " Filenames:	hg-editor-*.txt
 " License:	VIM License
 " URL:		https://github.com/k-takata/hg-vim
